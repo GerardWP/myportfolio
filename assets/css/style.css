@@ -178,7 +178,7 @@ strong {
   width: 360px;
   /* background: url("../images/dripshadow2.png") top -37px right -13px no-repeat
     rgba(48, 48, 48, 0.351); */
-  background: rgba(48, 48, 48, 0.351);
+  background: rgba(48, 48, 48, 0.251);
   background-size: 250px;
   position: absolute;
   right: 0px;
@@ -206,6 +206,7 @@ article {
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: rgba(255, 255, 255, 0.692);
   /* text-align: left: */
 }
@@ -259,4 +260,187 @@ article img {
   line-height: 0.95em;
   color: rgb(216, 216, 216);
   /* text-align: right; */
+}
+
+@media (max-width: 1100px) {
+  h2 {
+    border-bottom: 2px solid rgb(238, 238, 238);
+    text-align: right;
+    color: rgb(215, 255, 121);
+    position: absolute;
+    padding: 4px 0;
+    width: 35%;
+    font-size: 1.4em;
+  }
+  /* .title {
+    margin-top: 85px;
+    flex: 1;
+    z-index: 100;
+  } */
+
+  .title h2:first-of-type {
+    /* width: 507px; */
+    /* width: 40%; */
+    /* right: -79; */
+    bottom: 270px;
+  }
+
+  .title h2:nth-of-type(2) {
+    /* width: 507px; */
+    /* width: 35%; */
+    bottom: 220px;
+  }
+
+  #intro h1 span {
+    /* display: none; */
+  }
+
+  .title {
+    margin-top: 90px;
+  }
+
+  #intro h1 {
+    /* margin-top: 40px; */
+    font-size: 2.6em;
+  }
+
+  #triangle-bottomright {
+    top: 30px;
+  }
+  .backbox {
+    top: 30px;
+  }
+
+  .about-me {
+    padding: 2rem;
+    margin: 110px 0 0 0;
+  }
+  .bg-shape1 {
+    width: 0;
+    height: 0;
+    border-bottom: 510px solid rgba(0, 0, 0, 0.116);
+  }
+
+  #intro {
+    width: 100%;
+    height: 510px;
+  }
+}
+
+@media (max-width: 950px) {
+  #intro h1 {
+    margin-top: 0px;
+    margin-left: 2.1rem;
+    width: 200px;
+  }
+
+  h2 {
+    border-bottom: none;
+    text-align: left;
+    width: 20%;
+    margin-left: 3rem;
+    font-size: 1.3em;
+  }
+
+  .title h2:first-of-type {
+    bottom: 95px;
+  }
+
+  .title h2:nth-of-type(2) {
+    bottom: 165px;
+  }
+  article {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  article img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-text {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  h2 {
+    border-bottom: none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    margin-left: 3rem;
+    font-size: 1.2em;
+    /* font-weight: 400; */
+    /* text-transform: uppercase; */
+  }
+  #intro {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .title h2:first-of-type {
+    bottom: 95px;
+    position: static;
+  }
+
+  .title h2:nth-of-type(2) {
+    bottom: 165px;
+    position: static;
+  }
+  .about-me {
+    margin: 20px;
+    max-width: 100%;
+    min-width: 100px;
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+
+  .about-me p {
+    text-align: left;
+    font-weight: lighter;
+    border-top: 1px solid rgba(238, 238, 238, 0.493);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* margin-top: -30px; */
+  }
+  .dd {
+    width: 100%;
+  }
+
+  #intro h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #intro h1 span {
+    /* display: none; */
+  }
+
+  .title {
+    margin-top: 50px;
+  }
+
+  .backbox {
+    display: none;
+  }
+
+  #triangle-bottomright {
+    display: none;
+  }
+
+  .bg-shape1 {
+    width: 0;
+    height: 0;
+    border-bottom: 280px solid rgba(0, 0, 0, 0.116);
+  }
+
+  .bg-shape3 {
+    display: none;
+  }
 }
