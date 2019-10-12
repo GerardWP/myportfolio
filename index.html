@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/7fcdf93b85.js"
+    crossorigin="anonymous"
+  ></script>
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -11,10 +23,11 @@
       <header><h1>Site Header</h1></header>
     <section id="intro">
         <div class="title">
-            <h1><span>//</span> Gerard Pelly</h1>
+            <h1 id="name">Gerard Pelly</Gerard><span>.</span></h1>
             <h2>Full Stack Web Developer</h2>   
             <h2>Multimedia Designer</h2>
         </div class="title">
+        <div class="bg-shape3"></div>
         <div class="bg-shape2"></div>
         <div class="bg-shape1"></div>
         <div class="drip"></div>
@@ -37,7 +50,29 @@
       </div>
     </section>
     <section id="techWork">
+        <div class="topBar"></div>
+      <div class="dd">
+        <article class="des">
+          <img src="./assets/images/design.svg" alt="Web Designer">
+          <div class="card-text">
+          <h3>Design</h3>
+          <p>I value simple content structure, intuative, clean design that provokes thoughtful interaction. </p>
+        </div>
+        </article>
+        <article class="dev">
+          <img src="./assets/images/dev3.svg" alt="Front End Developer">
+          <div class="card-text">
+            <h3>Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo odio illum, repellat, fugiat, totam natus nostrum vero ullam non corporis iure necessitatibus molestiae ex accusantium optio sapiente officia nemo dicta.</p>
+          </div>
+        </article>
+      </div>
+   <div class="portfolio">
+     <h1>My Work<span>.</span></h1>
+   </div>
         
     </section>
+
+    <script type="text/Javascript" src="./assets/js/app.js"></script>
   </body>
 </html>
