@@ -350,6 +350,11 @@ article img {
   background-size: cover;
 }
 
+.box7 {
+  background: url("../images/rememeber.jpg") center no-repeat;
+  background-size: cover;
+}
+
 footer {
   width: 100%;
   background: rgb(17, 17, 17);
